@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Fylo.css" />
+
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="parent">
+      <nav>
+        <div class="logo">
+          <img
+            src="./logo.svg"
+            alt="logo_icon"
+            style="object-fit: contain; width: 100px"
+          />
+        </div>
+        <div class="right_nav">
+          <a href="#">Features</a>
+          <a href="#">Team</a>
+          <a href="#">Sign In</a>
+        </div>
+      </nav>
+      <section class="first">
+        <main class="first_hero">
+          <div class="first_hero_left">
+            <h1>All your files in one secure location, accessible anywhere.</h1>
+            <p class="first_hero_paragraph">
+              Fylo stores your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
+            </p>
+            <div class="first_hero_footer">
+              <input type="text" placeholder="Enter your email..."/>
+              <button class="btn">Get Started</button>
+            </div>
+          </div>
+          <div class="first_hero_right">
+            <img
+              src="./images/illustration-1.svg"
+              alt="Img_first_section"
+              class="hero1_img"
+            />
+          </div>
+        </main>
+      </section>
+      <img class="page_curve" src="./images/bg-curve-desktop.svg" alt="curve">
+      <section class="second">
+        <main class="second_hero">
+          <div class="second_hero_left">
+            <h1>Stay productive, wherever you are</h1>
+            <p class="second_hero_paragraph">
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </p>
+            <p class="second_hero_paragraph">
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required!
+            </p>
+            <div class="second_hero_link">
+              <a href="#">See how Fylo works</a>
+              <img src="./images/icon-arrow.svg" alt="arrow_icon" />
+            </div>
+            <main class="box">
+              <div class="box_content">
+                <img style="text-decoration: underline;" src="./images/icon-quotes.svg" alt="quote" />
+                <p class="box_paragraph">
+                  Fylo has improved our team productivity by an order of
+                  magnitude. Since making the switch our team has become a
+                  well-oiled collaboration machine.
+                </p>
+                <footer class="box_footer">
+                  <img
+                    class="avatar_png"
+                    src="./images/avatar-testimonial.jpg"
+                    alt="avatar"
+                  />
+                  <div class="avatar_name">
+                    <h6>Kyle Burton</h6>
+                    <p>Founder & CEO, Huddle</p>
+                  </div>
+                </footer>
+              </div>
+            </main>
+          </div>
+          <div class="second_hero_right">
+            <img
+              src="./images/illustration-2.svg"
+              alt="Img_second_section"
+              class="hero2_img"
+            />
+          </div>
+        </main>
+      </section>
+      <section class="third">
+        <main class="third_hero">
+            <div class="third_hero_left">
+                <h1>Get early access today</h1>
+                <p class="third_hero_paragraph">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+            </div>
+            <div class="third_hero_right">
+                <input type="text" placeholder="email@example.com">
+                <button class="btn">Get Started For Free</button>
+            </div>
+        </main>
+    </section>
+    <footer class="fourth">
+      <main class="footer_logo">
+        <img src="./logo.svg" alt="logo">
+      </main>
+      <section class="fourth_hero">
+        <div class="fourth_hero1">
+          <div class="phone">
+            <img class="phone_email_icon" src="./images/icon-phone.svg" alt="phone_icon">
+            <p>Phone: +1-543-123-4567</p>
+          </div>
+          <div class="email">
+            <img class="phone_email_icon" src="./images/icon-email.svg" alt="email_icon">
+            <p>example@fylo.com</p>
+          </div>
+        </div>
+        <div class="fourth_hero2">
+          <a href="#">About Us</a>
+          <a href="#">Jobs</a>
+          <a href="#">Press</a>
+          <a href="#">Blog</a>
+        </div>
+        <div class="fourth_hero3">
+          <a href="#">Contact Us</a>
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+        </div>
+        <div class="fourth_hero4">
+          <img src="./images/facebook_white_logo.png" alt="facebook_icon">
+          <img src="./images/twitter_white_logo.png" alt="twitter_icon">
+          <img src="./images/instagram_white_logo.png" alt="instagram_icon">
+        </div>
+      </section>
+    </footer>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Abubakar Muhammad</a>.
+      </p>
+    </footer>
+  </body>
+</html>
